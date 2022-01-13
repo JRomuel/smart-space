@@ -6,7 +6,7 @@ import chase_logo from '../assets/images/chase_logo.svg';
 import gucc_logo from '../assets/images/gucc_logo.svg';
 import microsoft_logo from '../assets/images/microsoft_logo.svg';
 import uber_logo from '../assets/images/uber_logo.svg';
-import hero from '../assets/images/hero-image.jpg';
+import hero_image from '../assets/images/hero-image.jpg';
 import { AiOutlineHome } from 'react-icons/ai'; 
 
 const Hero = () => (
@@ -51,7 +51,7 @@ const Hero = () => (
                 </div>
 
                 <div className={classes.right_image}>
-                    <Image src={hero} alt='banner'/>  
+                    <Image src={hero_image} alt='banner'/>  
                 </div>
             </div>
         </div>
