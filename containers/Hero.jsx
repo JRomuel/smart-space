@@ -37,7 +37,7 @@ const fadeInUp2 = {
         opacity: 1,
         transition: {
             duration: .6,
-            delay: .9
+            delay: 1.2
         }
     }
 }
@@ -52,7 +52,7 @@ const fadeInUp3 = {
         opacity: 1,
         transition: {
             duration: .6,
-            delay: 1.5
+            delay: 1.9
         }
     }
 }
@@ -74,8 +74,7 @@ const socail_animate_stagger = {
     animate: {
         transition: {
             staggerChildren: 0.3,
-            delayChildren: 2,
-            delay: 2
+            delayChildren: 2.2,
 
         }
     }
@@ -84,7 +83,8 @@ const socail_animate_stagger = {
 const stagger = {
     animate: {
         transition: {
-            staggerChildren: 0.3
+            staggerChildren: 0.3,
+            delayChildren: .4,
         }
     }
 }
