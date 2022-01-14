@@ -132,7 +132,13 @@ const Hero = () => (
                 </div>
 
                 <motion.div variants={ fadeInUp3 } className={classes.right_image}>
-                    <Image src={hero_image} layout="responsive" alt='banner'/>  
+                    <Image 
+                        priority={ true } 
+                        src={hero_image} 
+                        layout="responsive" 
+                        alt='banner' 
+                        sizes="(max-width:500px) 100px, (max-width:1024px) 300px, 500px"
+                    />  
                 </motion.div>
             </div>
         </div>
