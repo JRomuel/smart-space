@@ -6,7 +6,7 @@ import chase_logo from '../assets/images/chase_logo.svg';
 import gucc_logo from '../assets/images/gucc_logo.svg';
 import microsoft_logo from '../assets/images/microsoft_logo.svg';
 import uber_logo from '../assets/images/uber_logo.svg';
-import hero_image from '../assets/images/hero-image.jpg';
+import hero_image from '../assets/images/hero-image-min.jpg';
 import { AiOutlineHome } from 'react-icons/ai'; 
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { motion } from 'framer-motion';
@@ -132,13 +132,15 @@ const Hero = () => (
                 </div>
 
                 <motion.div variants={ fadeInUp3 } className={classes.right_image}>
-                    <Image 
-                        priority={ true } 
-                        src={hero_image} 
-                        layout="responsive" 
-                        alt='banner' 
-                        sizes="(max-width:500px) 100px, (max-width:1024px) 300px, 500px"
-                    />  
+                    <div style={{ position: 'relative' }}>
+                        <Image 
+                            priority
+                            src={hero_image} 
+                            layout="responsive" 
+                            alt='banner'
+                        /> 
+                    </div>
+            
                 </motion.div>
             </div>
         </div>
