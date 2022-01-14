@@ -46,4 +46,12 @@ p{
 .rpl__container{
   max-width: 1170px;
   margin: auto;
+  padding: 0;
+
+}
+
+@media screen and (max-width: 992px) {
+  .rpl__container{
+    padding: 0 20px;
+  }
 }

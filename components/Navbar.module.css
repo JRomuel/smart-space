@@ -1,5 +1,4 @@
 .rlp__navbar{
-
     padding: 34px 0;
     position: absolute;
     top: 0;
@@ -26,6 +25,13 @@
     list-style: none;
     display: flex;
 }
+@media screen and (max-width: 992px) {
+    .rlp__navbar .rlp__navbar_wrapper .links_container{
+        display: none;
+    }
+}
+
+
 .rlp__navbar .rlp__navbar_wrapper .links_container ul li{
     margin-left: 46px;
 }

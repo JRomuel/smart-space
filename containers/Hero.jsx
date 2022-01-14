@@ -99,11 +99,23 @@ const Hero = () => (
                     <motion.h1 variants={fadeInUp}>Smart Living Style for Smart People</motion.h1>
                     <motion.p variants={fadeInUp}>Much did had call new drew that kept. Limits expect wonder law she. Now has you views woman noisy match money rooms.</motion.p>
                 </motion.div>
+                
 
                 <motion.div variants={fadeInUp2} className={classes.content__input}>
                     <span className={classes.input_addon}><AiOutlineHome /></span>
                     <input type="text" placeholder="Enter Zipcode to search properties"/>
                     <button type="button">Search Now!</button>
+                </motion.div>
+
+                <motion.div variants={ fadeInUp3 } className={classes.right_image}>
+                    <div style={{ position: 'relative' }}>
+                        <Image 
+                            src={hero_image} 
+                            layout="responsive" 
+                            alt='banner'
+                        /> 
+                    </div>
+            
                 </motion.div>
                 
                 <div className={classes.partners}>
@@ -130,18 +142,6 @@ const Hero = () => (
                     </div>
 
                 </div>
-
-                <motion.div variants={ fadeInUp3 } className={classes.right_image}>
-                    <div style={{ position: 'relative' }}>
-                        <Image 
-                            priority
-                            src={hero_image} 
-                            layout="responsive" 
-                            alt='banner'
-                        /> 
-                    </div>
-            
-                </motion.div>
             </div>
         </div>
         <div className={classes.lines}>
