@@ -8,9 +8,11 @@ import microsoft_logo from '../assets/images/microsoft_logo.svg';
 import uber_logo from '../assets/images/uber_logo.svg';
 import hero_image from '../assets/images/hero-image.jpg';
 import { AiOutlineHome } from 'react-icons/ai'; 
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => (
     <div className={classes.rlp__hero}>
+        <div className={classes.tealbg}></div>
         <div className="rpl__container">
             <div className={classes.content_wrapper}>
                 <div className={classes.left_content}>
@@ -54,6 +56,18 @@ const Hero = () => (
                     <Image src={hero_image} alt='banner'/>  
                 </div>
             </div>
+        </div>
+        <div className={classes.lines}>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div className={classes.socials}>
+            <span><FaFacebookF /></span>
+            <span><FaInstagram /></span>
+            <span><FaTwitter /></span>
+            <span><FaLinkedin /></span>
         </div>
     </div>
 )
