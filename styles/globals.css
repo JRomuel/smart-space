@@ -18,6 +18,7 @@
   --button-color: #F85A47;
 }
 
+
 html,
 body {
   padding: 0;
@@ -50,8 +51,38 @@ p{
 
 }
 
-@media screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rpl__container{
+    overflow: hidden;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
   .rpl__container{
     padding: 0 20px;
   }
 }
+
+
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rpl__container{
+    max-width: 960px;
+  }
+} */
+
+
+
+/* @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .rpl__container{
+    max-width: 1100px;
+  }
+} */
+
+
+
+/* @media screen and (min-width: 1400px) {
+  .rpl__container{
+    max-width: 1170px;
+  }
+} */

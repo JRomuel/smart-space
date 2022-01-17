@@ -14,6 +14,20 @@
 
 }
 
+@media (max-width: 767px) {
+    .rlp__hero .tealbg{
+        width: calc(100% / 3);
+    }
+    
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rlp__hero .tealbg{
+        width: calc(100% / 4);
+    }
+    
+  }
+
 .rlp__hero .lines div{
     position: absolute;
     top: 0;
@@ -33,7 +47,24 @@
     right: 40px;
     top: 50%;
     transform: translateY(-50%);
+    overflow: hidden;
 }
+
+@media only screen and (max-width: 1200px) {
+    .rlp__hero .socials{
+        display: none;
+    }
+    
+  }
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .rlp__hero .socials{
+        right: 14px;
+    }
+  }
+
+
 .rlp__hero .socials span{
     margin-bottom: 26px;
     font-size: 20px;
@@ -64,12 +95,29 @@
     margin-bottom: 48px;
     
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 767px) {
     .rlp__hero .content_wrapper .left_content{
         width: 100%;
         padding-right: 0;
     }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .rlp__hero .content_wrapper .left_content{
+        width: 60%;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    .rlp__hero .content_wrapper .left_content{
+        padding-right: 45px;
+        
+    }
+  }
+  
 
 .rlp__hero .content_wrapper .left_content .top_text{
     font-weight: bold;
@@ -78,6 +126,26 @@
     color: var(--color-subtext);
     margin-bottom: 24px;
 }
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .rlp__hero .content_wrapper .left_content .top_text{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+    
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .rlp__hero .content_wrapper .left_content .top_text{
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 18px;
+    }
+  }
+
+
+
 .rlp__hero .content_wrapper .left_content h1{
     font-weight: 800;
     font-size: 54px;
@@ -87,6 +155,25 @@
 }
 
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rlp__hero .content_wrapper .left_content h1{
+    font-size: 46px;
+    line-height: 65px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .rlp__hero .content_wrapper .left_content h1{
+        font-size: 46px;
+        line-height: 65px;
+    }
+    
+  }
+  
+
+
+
 
 .rlp__hero .content_wrapper .content__input{
     z-index: 1;
@@ -94,6 +181,15 @@
     position: relative;
     display: flex;
 }
+
+@media only screen and (max-width: 767px){
+    .rlp__hero .content_wrapper .content__input{
+        margin-bottom: 60px;
+    }
+    
+  }
+
+
 .rlp__hero .content_wrapper .content__input .input_addon{
     position: absolute;
     left: 33px;
@@ -103,6 +199,30 @@
     font-size: 21px;
     color: #31353B;
 }
+
+@media only screen and (max-width: 767px){
+    .rlp__hero .content_wrapper .content__input .input_addon{
+        left: 14px;
+        top: 13px;
+    }
+    
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .rlp__hero .content_wrapper .content__input .input_addon{
+        top: 19px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .rlp__hero .content_wrapper .content__input .input_addon{
+        top: 25px;
+    }
+  }
+
+
+
 
 
 
@@ -117,8 +237,41 @@
     padding: 30px 20px 30px 74px;
     outline: none;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
-
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rlp__hero .content_wrapper .content__input input{
+        width: 60%;
+      
+    }
+  }
+  
+
+  @media only screen and (max-width: 767px){
+    .rlp__hero .content_wrapper .content__input input{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 10px 10px 42px;
+    }
+    
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .rlp__hero .content_wrapper .content__input input{
+        padding: 15px 15px 15px 74px;
+        font-size: 18px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .rlp__hero .content_wrapper .content__input input{
+        padding: 20px 20px 20px 74px;
+        font-size: 18px;
+    }
+  }
+
 .rlp__hero .content_wrapper .content__input input::placeholder{
     color: #31353B;
     opacity: 0.3;
@@ -148,6 +301,27 @@
     border: none;
 }
 
+@media (max-width: 767px) {
+    .rlp__hero .content_wrapper .content__input button{
+        font-size: 14px;
+        padding: 0 5px;
+    }
+  }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .rlp__hero .content_wrapper .content__input button{
+        padding: 15px;
+    }
+    
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .rlp__hero .content_wrapper .content__input button{
+        padding: 20px;
+    }
+  }
+
+
 .rlp__hero .content_wrapper .partners p{
     margin-bottom: 27px;
 }
@@ -158,11 +332,24 @@
 }
 .rlp__hero .content_wrapper .partners .partners_wrapper .partner_image{
     height: 25px;
+    margin-bottom: 10px;
 }
+
+
+
 
 .rlp__hero .content_wrapper .partners .partners_wrapper .partner_image:not(:last-child){
     margin-right: 50px;
 }
+
+@media screen and (max-width: 767px) {
+    .rlp__hero .content_wrapper .partners .partners_wrapper .partner_image:not(:last-child){
+        margin-right: 22px;
+    }
+    
+    
+}
+
 
 
 .rlp__hero .content_wrapper .right_image{
@@ -176,9 +363,24 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+    .rpl__container{
+      padding: 0 20px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
     .rlp__hero .content_wrapper .right_image{
         position: relative;
         width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .rlp__hero .content_wrapper .right_image{
+        width: 75%;
+        right: -35%;
     }
 }
