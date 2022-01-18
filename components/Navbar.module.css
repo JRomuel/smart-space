@@ -37,6 +37,7 @@
 }
 .rlp__navbar .rlp__navbar_wrapper .links_container ul li a{
     font-weight: 700;
+    font-family: var(--secondary-font-family);
 }
 .rlp__navbar .rlp__navbar_wrapper .links_container ul li a.active{
     border-bottom: 1px solid #000;
