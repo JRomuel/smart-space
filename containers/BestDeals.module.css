@@ -16,6 +16,23 @@
     margin-bottom: 15px;
 }
 
+.rlp__bestDeals .tabpanel{
+    padding: 45px 0;
+}
+.rlp__bestDeals .tabpanel > div{
+    padding: 0;
+}
+.rlp__bestDeals .tabs{
+    border: none;
+}
+.rlp__bestDeals .tabs .tab{
+    /* color: #000; */
+    font-size: 19px;
+    line-height: 26px;
+    text-transform: none;
+    padding: 12px 0;
+    margin-right: 50px;
+}
 
 .rlp__bestDeals .tab_images_wrapper{
     display: flex;
@@ -41,4 +58,8 @@
     margin-left: 6px;
     box-sizing: border-box;
     border-radius: 5px;
+}
+
+.red{
+    color: red;
 }

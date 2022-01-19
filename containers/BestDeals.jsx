@@ -93,16 +93,16 @@ const BestDeals = () => {
                 </div>
                 <ThemeProvider theme={theme}>
                     <Box sx={{ width: '100%' }}>
-                        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example"  indicatorColor="primary"
+                        <Box sx={{ borderColor: 'divider' }}>
+                            <Tabs className={classes.tabs} value={value} onChange={handleChange} aria-label="basic tabs example"  indicatorColor="primary"
             textColor="primary">
-                                <Tab label="Residential Property" {...a11yProps(0)} />
-                                <Tab label="Commercial Property" {...a11yProps(1)} />
-                                <Tab label="Agriculture Property" {...a11yProps(2)} />
-                                <Tab label="Industrial Property" {...a11yProps(3)} />
+                                <Tab className={classes.tab} label="Residential Property" {...a11yProps(0)} />
+                                <Tab className={classes.tab} label="Commercial Property" {...a11yProps(1)} />
+                                <Tab className={classes.tab} label="Agriculture Property" {...a11yProps(2)} />
+                                <Tab className={classes.tab} label="Industrial Property" {...a11yProps(3)} />
                             </Tabs>
                         </Box>
-                        <TabPanel value={value} index={0} color="success">
+                        <TabPanel className={classes.tabpanel} value={value} index={0}>
                             <div className={classes.tab_images_wrapper}>
               
                                 <div className={classes.tab_image}>
@@ -130,7 +130,7 @@ const BestDeals = () => {
                             </div>
               
                         </TabPanel>
-                        <TabPanel value={value} index={1}>
+                        <TabPanel className={classes.tabpanel} value={value} index={1}>
                             <div className={classes.tab_images_wrapper}>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image1} alt='banner'/>  
@@ -143,7 +143,7 @@ const BestDeals = () => {
                                 </div>
                             </div>
                         </TabPanel>
-                        <TabPanel value={value} index={2}>
+                        <TabPanel className={classes.tabpanel} value={value} index={2}>
                             <div className={classes.tab_images_wrapper}>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image1} alt='banner'/>  
@@ -157,7 +157,7 @@ const BestDeals = () => {
                           
                             </div>
                         </TabPanel>
-                        <TabPanel value={value} index={3}>
+                        <TabPanel className={classes.tabpanel} value={value} index={3}>
                             <div className={classes.tab_images_wrapper}>
                             
                                 <div className={classes.tab_image}>
