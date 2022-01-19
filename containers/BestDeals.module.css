@@ -1,0 +1,44 @@
+.rlp__bestDeals{
+    padding-top: 100px;
+}
+.rlp__bestDeals .title_button_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.rlp__bestDeals .title_button_wrapper .title_wrapper{
+    max-width: 500px;
+}
+.rlp__bestDeals .title_button_wrapper .title_wrapper h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+
+
+.rlp__bestDeals .tab_images_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rlp__bestDeals .tab_images_wrapper .tab_image{
+    position: relative;
+}
+.rlp__bestDeals .tab_images_wrapper .tab_image .pills{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.rlp__bestDeals .tab_images_wrapper .tab_image .pills span{
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFFFFF;
+    margin-left: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
