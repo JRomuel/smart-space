@@ -1,9 +1,22 @@
-import { Box } from '@chakra-ui/layout';
+import Newsletter from "./Newsletter";
+import classes from "./Footer.module.css";
+import FooterNav from "./FooterNav";
 
 const Footer = () => (
-  <Box textAlign='center' p='5' color='gray.600' borderTop='1px' borderColor='gray.100'>
-    Copyright © 2021 AR Shakir . All Rights Reseved.
-  </Box>
+  <>
+  <div className={classes.footer}>
+    <div className="rpl__footer_container">
+      <Newsletter/>
+      <FooterNav/>
+      <div className={classes.copyright}>
+        Copyright © 2021 AR Shakir . All Rights Reseved.
+      </div>
+    </div>
+  </div>
+
+
+  </>
+
 );
 
 export default Footer;

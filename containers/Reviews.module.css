@@ -1,7 +1,7 @@
 .rlp__reviews{
     padding-top: 100px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .rlp__reviews .title{
@@ -87,12 +87,28 @@
 
 }
 
+@media screen and (max-width: 991px) {
+    .rlp__reviews .partners_contact{
+        display: block;
+    
+    }
+}
 
 .rlp__reviews .partners_contact .partners .partners_wrapper{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 991px) {
+    .rlp__reviews .partners_contact .partners .partners_wrapper{
+        margin-bottom: 50px;
+    }
+    
+}
+
+
+
 .rlp__reviews .partners_contact .partners .partners_wrapper .partner_image{
     height: 25px;
     margin-bottom: 10px;

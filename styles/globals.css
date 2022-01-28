@@ -51,6 +51,12 @@ p{
 
 }
 
+.rpl__footer_container{
+  max-width: 900px;
+  margin: auto;
+  padding: 0;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rpl__container{
     overflow: hidden;
@@ -59,7 +65,7 @@ p{
 
 
 @media screen and (max-width: 1200px) {
-  .rpl__container{
+  .rpl__container, .rpl__footer_container{
     padding: 0 20px;
   }
 }
@@ -79,6 +85,11 @@ p{
 }
 .button.rounded {
   border-radius: 5px;
+}
+.button.newsletter {
+  font-size: 18px;
+  padding: 14px 40px;
+  white-space: nowrap;
 }
 
 /* tabs customization */
