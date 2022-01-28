@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css';
 import Hero from '../containers/Hero';
 import HowItWorks from '../containers/HowItWorks';
 import BestDeals from '../containers/BestDeals';
+import Feaured from '../containers/Featured';
+import Reviews from '../containers/Reviews';
 
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero/>
       <HowItWorks/>
       <BestDeals/>
+      <Feaured/>
+      <Reviews/>
     </>
 
   )

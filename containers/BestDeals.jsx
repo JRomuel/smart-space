@@ -50,7 +50,7 @@ function TabPanel(props) {
       >
         {value === index && (
           <Box sx={{ p: 3 }}>
-            <Typography>{children}</Typography>
+            <Typography component={'span'}>{children}</Typography>
           </Box>
         )}
       </div>
@@ -134,12 +134,24 @@ const BestDeals = () => {
                             <div className={classes.tab_images_wrapper}>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image1} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image2} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image3} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                             </div>
                         </TabPanel>
@@ -147,12 +159,24 @@ const BestDeals = () => {
                             <div className={classes.tab_images_wrapper}>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image1} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image3} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image2} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                           
                             </div>
@@ -162,12 +186,24 @@ const BestDeals = () => {
                             
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image2} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                                 <div className={classes.tab_image}>
                                     <Image src={best_deals_image3} alt='banner'/>  
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div>
                                 </div>
                                 <div className={classes.tab_image}>
-                                    <Image src={best_deals_image1} alt='banner'/>  
+                                    <Image src={best_deals_image1} alt='banner'/> 
+                                    <div className={classes.pills}>
+                                        <span>Featured</span>
+                                        <span>3D</span>
+                                    </div> 
                                 </div>
                             </div>
                         </TabPanel>

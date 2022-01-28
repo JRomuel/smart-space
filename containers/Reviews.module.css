@@ -1,0 +1,117 @@
+.rlp__reviews{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.rlp__reviews .title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    width: 50%;
+    margin-bottom: 51px;
+}
+
+@media screen and (max-width: 991px) {
+    .rlp__reviews .title{
+        width: 100%;
+    }
+}
+.rlp__reviews .reviews_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 85px;
+}
+
+
+.rlp__reviews .reviews_wrapper .review{
+    width: 31%;
+    padding: 52px 38px;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .rlp__reviews .reviews_wrapper .review{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .rlp__reviews .reviews_wrapper .review{
+        width: 48%;
+    }
+}
+
+
+.rlp__reviews .reviews_wrapper .review .comment{
+    margin-bottom: 50px;
+}
+
+
+.rlp__reviews .reviews_wrapper .review .rating_wrapper{
+    margin-bottom: 34px;
+}
+
+.rlp__reviews .reviews_wrapper .review .rating_wrapper .rating{
+    margin-right: 3px;
+    color: #FBB040;
+}
+
+.rlp__reviews .reviews_wrapper .review .author{
+    display: flex;
+}
+
+.rlp__reviews .reviews_wrapper .review .author .author_image{
+    margin-right: 20px;
+    align-items: center;
+}
+.rlp__reviews .reviews_wrapper .review .author .author_details .name{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+.rlp__reviews .reviews_wrapper .review .author .author_details .location{
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.rlp__reviews .partners_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.rlp__reviews .partners_contact .partners .partners_wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rlp__reviews .partners_contact .partners .partners_wrapper .partner_image{
+    height: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rlp__reviews .partners_contact .partners .partners_wrapper .partner_image:not(:last-child){
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .rlp__reviews .partners_contact .partners .partners_wrapper .partner_image:not(:last-child){
+        margin-right: 22px;
+    }
+    
+    
+}
+
+.rlp__reviews .partners_contact .contact{
+    max-width: 300px;
+}
