@@ -23,6 +23,15 @@
     width: 80%;
     margin: 0 auto 160px;
 }
+
+@media screen and (max-width: 767px) {
+    .newsletter_area .textfield{
+        width: 100%;
+        padding: 26px 10px;
+    }
+}
+
+
 .newsletter_area .textfield .textinput{
     width: 100%;
 }

@@ -92,6 +92,14 @@ p{
   white-space: nowrap;
 }
 
+
+@media screen and (max-width: 767px) {
+  .button.newsletter {
+    padding: 14px 12px;
+  }
+}
+
+
 /* tabs customization */
 
 /* .css-tdt1ct-MuiButtonBase-root-MuiTab-root{
